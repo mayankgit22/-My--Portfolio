@@ -76,7 +76,7 @@ height: 90vh;
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-#about img{
+#about img{position="relative";
     width: 70px;
     height: 70px;
     cursor: pointer;
