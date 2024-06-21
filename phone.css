@@ -1,0 +1,145 @@
+
+#header{
+    display: flex;
+    justify-content: center;
+}
+#nav{margin: 0px;
+    /* left: 400px; */
+    /* width: 25.1%; */
+    /* border-radius: 30px; */
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   background-color: white;
+   position: relative;
+   /* border-bottom: 2px solid; */
+ 
+    
+}
+#nav img{
+    width: 60px;
+    height: 60px;
+}
+li a{display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 1.6rem;
+    margin: 15px;text-align: left;
+ 
+ }
+ #introImg img{width: 340px;
+    /* border: 2px solid; */
+    border-radius: 70px;
+    height: 400px;
+    cursor: pointer;
+    
+    margin: 15px;
+    background-color: aliceblue;
+    }
+    #introDiv{
+        /* background-color: rgb(211, 196, 227); */
+    border-bottom: 2px solid;
+    display: flex;
+    border-top: 2px solid;
+    flex-direction: column;
+    /* position: static; */
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    }
+    #about p{margin: 5px;
+        font-size: 1.25rem;
+        color: black;
+        width: 400px;
+        /* display: none; */
+        height: min-content;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    #about{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+    }
+    #projects{
+        /* width: 100%; */
+flex-direction: column;
+        display: flex;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        border-top: 2px solid;
+        border-bottom: 2px solid;
+        margin: 20px;
+        /* height: 80vh; */
+  
+        text-align: center;
+    }
+    #contact1{    
+       height: 60vh;
+    
+    }
+    #contact1 input{
+        width: 340px;
+        height: 40px;
+        font-size: 1.2rem;
+        margin: 20px;
+        padding: 5px;
+        border-radius: 10px;
+      }
+      #about img{
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+        margin: 10px;
+    }
+      #contact1  button{
+        width: 200px;
+        height: 50px;
+        font-size: 1.3rem;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: rgb(215, 136, 33);
+        cursor: pointer;
+      
+        padding: 8px;
+      
+      }
+      #project1,#project2,#project3{
+        border: 2px solid wheat;
+    display: flex;
+    flex-direction: column;
+    background-color:  rgba(122, 64, 155, 0.99);
+    margin: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: auto;
+    /* color: aliceblue; */
+    color: white;
+    padding: 15px;
+    width: 83%;
+    box-shadow: 7px 2px 20px rgb(12, 7, 7);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }
+    .thankyou{
+        font-size: 3rem;
+        margin: 30px;
+        color: green;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* text-align: center; */
+        height: 50vh;
+    
+    }
